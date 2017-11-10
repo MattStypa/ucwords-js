@@ -1,0 +1,32 @@
+{
+  "name": "ucwords",
+  "version": "1.0.0",
+  "description": "Uppercase the first character of each word in a string",
+  "license": "MIT",
+  "author": {
+    "name": "Matt Stypa",
+    "email": "matt@mattstypa.com",
+    "url": "http://mattstypa.com"
+  },
+  "keywords": [
+    "ucwords",
+    "uppercase",
+    "capitilize"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MattStypa/ucwords-js"
+  },
+  "main": "src/ucwords.js",
+  "scripts": {
+    "test": "jest",
+    "test-coverage": "jest --coverage",
+    "lint": "jshint src/*.js __tests__/*.js",
+    "cs": "jscs src/*.js __tests__/*.js"
+  },
+  "devDependencies": {
+    "jscs": "3.0.7",
+    "jshint": "2.9.5",
+    "jest": "^21.2.1"
+  }
+}
