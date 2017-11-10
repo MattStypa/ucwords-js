@@ -1,6 +1,6 @@
 {
   "name": "ucwords",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Uppercase the first character of each word in a string",
   "license": "MIT",
   "author": {
