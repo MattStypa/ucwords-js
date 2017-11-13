@@ -7,6 +7,11 @@
 
 Uppercase the first character of each word in a string.
 
+```javascript
+const ucwords = require('ucwords');
+ucwords('hello world'); // 'Hello World'
+```
+
 Inspired by [Jeffrey Way](https://twitter.com/jeffrey_way)
 
 ![tweet](https://i.imgur.com/sNsmnxj.png)
